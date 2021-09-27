@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Deployment</title>
+</head>
+<body>
+<h1>Customer churn prediction</h1>
+<p>Please enter the details to get predictions</p>
+</body>
+<form action="/submit" method="POST">
+    Enter Customerid <input type="text" name="customerid"> Enter Surname <input type="text" name="surname"><br><br>
+    Enter creditscore <input type="text" name="creditscore">Enter Geography <input type="text" name="geography"><br><br>
+    Enter Gender Male/Female <input type="text" name="gender">Enter Age <input type="text" name="age"><br><br>
+    Enter Tenure <input type="text" name="tenure">Enter Balance <input type="text" name="balance"><br><br>
+    Enter Num_of_Products <input type="text" name="numofproducts"><br><br>
+    Does Customer has credit card (0 if yes, 1 if no) <input type="text" name="hascrcard"><br><br>
+    IS customer is active <input type="text" name="isactivemember" placeholder="0 for not active 1 for active"><br><br>
+    what is the EstimatedSalary of customer <input type="text" name="estimatedsalary"><br><br>
+    what is the sentiment(0 for neutral/1 for positive,-1 for negative)<input type="text" name="sentiment"><br><br>
+    <input type="submit">
+
+</form>
+</html>
