@@ -1,3 +1,5 @@
+
+#this si from clon repo in local
 from flask import Flask,render_template,request
 #import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
